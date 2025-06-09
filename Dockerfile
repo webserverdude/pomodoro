@@ -7,7 +7,7 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy the static files (HTML, JS, MP3, etc.) to the nginx web root
 COPY index.html /usr/share/nginx/html/
 COPY script.js /usr/share/nginx/html/
-COPY alarm.mp3 /usr/share/nginx/html/  # Optional: if you have a sound file
+COPY alarm.mp3 /usr/share/nginx/html/
 
 # Expose HTTP port
 EXPOSE 80
